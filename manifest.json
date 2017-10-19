@@ -1,0 +1,12 @@
+{
+	"name": "OneDrive Chromebook Filesystem",
+	"permissions": [
+		"fileSystemProvider"
+	],
+	"file_system_provider_capabilities": {
+		"configurable": true,
+		"watchable": true,
+		"multiple_mounts": false,
+		"source": "network"
+	}
+}
