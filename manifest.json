@@ -1,7 +1,15 @@
 {
 	"name": "OneDrive Chromebook Filesystem",
+	"version": "1.0",
+	"default_locale": "en_us",
 	"permissions": [
-		"fileSystemProvider"
+		"fileSystemProvider",
+		"identity",
+		"storage",
+		"notifications",
+		"https://api.onedrive.com/",
+		"https://*.files.1drv.com/",
+		"https://*.up.1drv.com/"
 	],
 	"file_system_provider_capabilities": {
 		"configurable": true,
